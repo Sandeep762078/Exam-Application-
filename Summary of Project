@@ -1,0 +1,30 @@
+Sure, here's a summary of your project:
+
+**Project Title:** Examination Paper Checking Web Application
+
+**Project Description:**
+Your web application is designed to assist educators and students in checking and comparing examination papers. It offers an easy-to-use interface for uploading both the model answer and the student's answer in DOC or DOCX format. The system then processes the uploaded files and provides a total percentage score based on a combination of keyword matching, sentence matching, and meaningful sentence matching. The result is presented in a table format for easy reference.
+
+**Features:**
+1. **File Upload:** Users can upload both the model answer and the student answer documents directly through the web interface.
+
+2. **Processing Animation:** When the user submits the papers, the system displays a "Processing" animation, indicating that the comparison is underway.
+
+3. **Result Display:** The system reveals the total percentage score, with a table layout for clarity.
+
+4. **Pass/Fail Message:** Depending on the total percentage, the application displays either a "Congratulations, you passed!" message in green (for scores equal to or above 35%) or a "You failed" message in red (for scores below 35%).
+
+5. **File Upload Success Message:** After a successful file upload, a "File uploaded successfully" message appears in green.
+
+**Technology Stack:**
+- **Front-end:** HTML, CSS, JavaScript
+- **Library:** Mammoth.js for text extraction
+- **Styling:** Basic CSS for a professional and user-friendly interface
+
+**Functionality:**
+The application reads and processes the uploaded DOC/DOCX files, extracting text data from them. It then calculates the total percentage based on matching keywords, sentences, and meaningful sentences between the model answer and the student answer. The application ensures that the total percentage does not exceed 100%.
+
+**Improvements:**
+To improve the accuracy of the application, you may consider refining the keyword matching algorithm and enhancing the sentence and meaningful sentence matching logic. Additionally, you can implement user authentication for security and privacy.
+
+This Examination Paper Checking Web Application streamlines the paper checking process, making it efficient and user-friendly for both educators and students.
